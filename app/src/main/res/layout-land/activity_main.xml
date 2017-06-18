@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:id="@+id/frag_hero_list"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        class="com.example.alex.practise_app.fragments.FragmentMainActivity" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+         />
+
+</LinearLayout>
